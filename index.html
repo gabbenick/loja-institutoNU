@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Loja Virtual</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+      <a id="logo" class="text-light" href="#">MouseShop</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#quem-somos">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#nosso-time">Nosso Time</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#nossos-produtos"
+              >Nossos Produtos</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide bg-dark"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block mouse-image mx-auto"
+            src="img/carousel/mouse-1.png"
+            alt="Primeiro mouse"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Conheça nossos produtos!</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block mouse-image mx-auto"
+            src="img/carousel/mouse-2.png"
+            alt="Segundo mouse"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os melhores mouses do mercado!</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block mouse-image mx-auto"
+            src="img/carousel/mouse-3.png"
+            alt="Terceiro mouse"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Promoções a todo momento!</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block mouse-image mx-auto"
+            src="img/carousel/mouse-4.png"
+            alt="Quarto mouse"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Não perca!</h5>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <section id="quem-somos" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="placeholder-black.png" alt="Quem Somos" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-light">Quem Somos</h2>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a
+              justo id neque tincidunt blandit. Etiam a leo ut nibh tristique
+              consequat eu vel metus. Nulla iaculis, tortor ac dictum bibendum,
+              ex eros consectetur massa, sed condimentum ligula turpis nec erat.
+              Phasellus interdum massa dui, nec sodales diam maximus vel. Donec
+              malesuada lorem mauris, ut euismod eros euismod in. Nullam congue
+              quis arcu ac efficitur. Nunc quis accumsan sapien, eget congue
+              elit. Integer varius nulla eu nibh vehicula lacinia. Mauris
+              volutpat lectus id viverra tincidunt. Aenean elementum neque in
+              nibh malesuada, et eleifend augue congue. Interdum et malesuada
+              fames ac ante ipsum primis in faucibus. Cras nec urna molestie,
+              blandit felis a, hendrerit purus. In sollicitudin tellus dui, sed
+              bibendum dui facilisis in.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosso-time" class="bg-dark py-5">
+      <div class="container">
+        <h2 class="text-light">Nosso Time</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="placeholder-white.png"
+              alt="Membro da equipe"
+              class="rounded-circle"
+            />
+            <h4 class="text-light">Funcionário 1</h4>
+            <p class="text-light">Função</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="placeholder-white.png"
+              alt="Membro da equipe"
+              class="rounded-circle"
+            />
+            <h4 class="text-light">Funcionário 2</h4>
+            <p class="text-light">Função</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="placeholder-white.png"
+              alt="Membro da equipe"
+              class="rounded-circle"
+            />
+            <h4 class="text-light">Funcionário 3</h4>
+            <p class="text-light">Função</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nossos-produtos" class="py-5 text-light">
+      <div class="container">
+        <h2>Nossos Produtos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 4</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 5</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="placeholder-white.png"
+                class="card-img-top"
+                alt="Produto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Produto 6</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card-text">R$ XX,XX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-light text-center py-3 bg-dark">
+      <div class="container">
+        <p>Endereço: Rua tal, XXX - Cidade - Estado</p>
+        <p>Telefone: (XX) XXXX-XXXX</p>
+        <p>
+          Redes Sociais: <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+          <a href="#">Twitter</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
